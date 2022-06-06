@@ -14,7 +14,7 @@
 <h2 class="text-decoration-underline mb-4" >Träningsläger</h2>
 
 <?php
-get_template_part('template-parts/travel_cup_fp');
+get_template_part('template-parts/travel_camp_fp');
 ?>
 
 </div>

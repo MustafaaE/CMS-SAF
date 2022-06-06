@@ -11,7 +11,7 @@ if ($camp_query->have_posts()) :
             <?php if (!empty(get_the_post_thumbnail())) { ?>
             <?php the_post_thumbnail('wcm-gallery'); ?>
           <?php } else { ?>
-            <img class = "my-3" src="<?php echo get_template_directory_uri(); ?>/assets/images/default-placeholder.png" width="350" height="250" alt="Coming Soon" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/default-placeholder.png" width="350" height="250" alt="Coming Soon" />
           <?php } ?>
                 <a href="<?php the_permalink(); ?>" style="color: black;" class="text-decoration-none">
                     <h3><?php the_title(); ?></h3>
