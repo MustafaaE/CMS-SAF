@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">CTA</a>
+                        <a href="/kontakt" class="btn btn-light">Kontakta oss</a>
                     </li>
                 </ul>
             </div>

@@ -1,7 +1,7 @@
 <?php
 
 $travel_query = new WP_Query([
-    'post_type' => 'wcm_travel',
+    'post_type' => 'travel_cup',
     'posts_per_page' => 3,
     // 'orderby'=> 'rand'
 ]);
