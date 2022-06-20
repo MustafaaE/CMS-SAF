@@ -1,13 +1,12 @@
 <?php get_header(); ?>
 
 
-<h1>hej page</h1>
 <div class="container">
 	<?php
 	if ( have_posts() ) :
 		while ( have_posts() ) : the_post(); ?>
             <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-                <a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+                <h2><?php the_title(); ?></h2>
                 <div id="our-post-thumbnail">
                     <?php the_post_thumbnail( 'wcm-gallery' ); ?>
                 </div>

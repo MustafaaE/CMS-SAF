@@ -1,4 +1,4 @@
-<footer class="navbar navbar-expand-lg navbar-dark bg-secondary d-flex justify-content-between">
+<footer class="navbar navbar-expand-lg navbar-dark bg-secondary d-flex justify-content-between mt-4">
 	<!-- Copyright -->
 	<div class="text-center">
 		<?php wp_nav_menu(

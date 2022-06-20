@@ -3,7 +3,7 @@
 <?php get_template_part('template-parts/hero'); ?>
 <div class="container my-5">
 <div class="d-flex justify-content-evenly">
-    <a href="travel_camp"><button type="button" class="btn btn-secondary">Träningsläger</button></a>
+    <a href="traningslager"><button type="button" class="btn btn-secondary">Träningsläger</button></a>
     <a href="travel_cup"><button type="button" class="btn btn-secondary">Cuper</button></a>
     <a href="travel_soccer"><button type="button" class="btn btn-secondary">Fotbollsresor</button></a>
 </div>
